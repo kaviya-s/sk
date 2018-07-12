@@ -1,4 +1,7 @@
-n=int(input())
-m=int(input())
-f=int(input())
-print(max(n,m,f))
+n=input()
+s=n.split()
+a=int(s[0])
+b=int(s[1])
+c=int(s[2])
+
+print(max(a,b,c))
